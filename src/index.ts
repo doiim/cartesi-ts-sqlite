@@ -3,7 +3,7 @@ import { components, paths } from "./schema";
 import { fromHex, toHex } from 'viem'
 
 // Importing and initializing DB
-const { Database } = require("node-sqlite3-wasm");
+import { Database } from "sqlite3";
 
 import { Product, ProductPayload } from './interfaces';
 
